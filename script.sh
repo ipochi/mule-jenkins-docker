@@ -1,2 +1,2 @@
 #!/bin/bash
-mvn clean package --DskipTests
+mvn clean package  -l output.log --DskipTests
